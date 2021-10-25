@@ -39,4 +39,4 @@ jobs:
           app-name: 'zclFunctionApp'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F07CF6B89861476EA3D6F151D9DB44FB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A7F4B7E653F84BF88060746EF49619E6 }}
